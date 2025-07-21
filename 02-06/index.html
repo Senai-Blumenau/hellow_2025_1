@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagem/download.png" type="image/x-icon">
+</head>
+
+<body>
+    <form action="#"><!--Inicia formulário-->
+
+        <h1>Cadastro de Pessoa</h1>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome">Nome:</label><!--Rótulo do campo-->
+            <input type="text" placeholder="Nome completo" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="email pessoal" required><br><br>
+
+            <label for="fone">Telefone:</label>
+            <input type="text" placeholder="celular" required><br><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" placeholder="informe número positivo" required><br><br>
+
+            <label for="senha">Senha</label>
+            <input type="password"><br><br>
+
+        </fieldset>
+        <br><hr><br>
+
+        <select name="esporte" id="esporte">
+            <option value="volei">Volei</option>
+            <option value="futebol">Futebol</option>
+            <option value="natacao">Natação</option>
+            <option value="atletismo">Atletismo</option>
+
+        </select><br><br>
+
+        <label id="semana">Dias da Semana:</label><br>
+
+
+        <input type="radio" value="segunda-feira" name="test">
+        <label>Segunda-feira </label><br>
+
+        <input type="radio" value="terça" name="test">
+        <label>Terça-feira</label><br>
+
+
+        <input type="radio" value="quarta" name="test"> <label>Quarta-feira
+        </label><br>
+
+
+        <input type="radio" value="quinta" name="test"><label>Quinta-feira
+        </label><br>
+
+        <input type="radio" value="sexta" name="test"><label>Sexta-feira
+        </label><br>
+
+
+        <input type="radio" value="sabado" name="test"> <label>Sábado
+        </label><br>
+
+        <input type="radio" value="domingo" name="test"><label>Domingo
+        </label><br><br>
+
+        <label for="texto">Escreva algo sobre você:</label><br>
+        <textarea name="texto" id="texto" rows="5" cols="50">
+
+        </textarea><br><br>
+
+        <label>Frutas que você gosta:</label><br>
+        <input type="checkbox" value="maça" name="fruta">
+        <label for="maca">Maça</label><br>
+
+        <input type="checkbox" value="pera" name="fruta">
+        <label for="pera">Pera</label><br>
+
+        <input type="checkbox" value="abacaxi" name="fruta">
+        <label for="abacaxi">Abacaxi</label><br>
+
+        <input type="checkbox" value="limão" name="fruta">
+        <label for="limao">Limão</label><br><br><br>
+        <hr><br>
+
+        <button onclick="funcao1()">Clique aqui</button>
+
+        <p id="demo"></p>
+
+
+<br><br><hr><br>
+
+
+        <button>Enviar</button>
+    </form><!--fim formulário-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

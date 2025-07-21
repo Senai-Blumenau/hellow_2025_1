@@ -1,0 +1,28 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #0077b6; /* azul oceano */
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+      font-size: 2em;
+      width: 100%;
+      height: 450px;
+      background-image: url('../imagem/sl_063022_51250_12.jpg');
+
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9em;
+      color: #333;
+    }

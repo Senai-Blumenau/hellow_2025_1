@@ -1,0 +1,79 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #fbf5f5;
+}
+.caixa {
+ display: inline-block;
+ background-color: lightblue;
+ padding: 20px;
+ margin: 10px 30Px ;
+ position: relative;
+}
+
+.container {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: blue;
+ color: white;
+}
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 10px;
+}
+
+@media (max-width: 600px) {
+ .container {
+ flex-direction: column;
+ }
+}
+nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    /* Remove os estilos padrão da lista */
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Estilo de cada item da lista */
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    /* Estilo dos links */
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      transition: background-color 0.3s;
+    }
+
+    /* Efeito hover */
+    nav ul li a:hover {
+      background-color: #555;
+      border-radius: 5px;
+    }
+footer{
+    background-color: #333;
+    height: 100px;
+    color: white;
+    text-align: center;
+    
+       
+}
+.text{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+
+}

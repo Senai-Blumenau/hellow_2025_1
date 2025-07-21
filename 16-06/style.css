@@ -1,0 +1,297 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.500);
+}
+
+.caixa {
+    display: inline-block;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 30Px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+
+/* Remove os estilos padrão da lista */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo de cada item da lista */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Estilo dos links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    font-size: 27px;
+}
+
+/* Efeito hover */
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'arial';
+
+}
+
+td,
+th {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    border-collapse: collapse;
+    font-family: 'arial';
+    text-align: center;
+    width: 15%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.ImgFooter {
+    width: 35px;
+    height: auto;
+}
+
+p {
+    font-family: 'Arial';
+    font-size: 19px;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-size: 42px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arial';
+    font-size: 27px;
+
+}
+
+h3 {
+    font-family: 'Arial';
+    font-size: 22px;
+}
+
+.titulo2 {
+    font-family: 'Arial';
+    font-size: 27px;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 768px) {
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 16px;
+        transition: background-color 0.3s;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo3 {
+        font-size: 13px;
+    }
+}
+
+img {
+    width: 400px;
+    height: 80%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ImgGaleria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 2px;
+    border: 5px solid white;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.234);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 img {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 0 1px;
+        align-items: center;
+        border: 3px white solid;
+    }
+}
+
+@media (max-width: 768px) {
+    .Imagemfooter img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        height: 45px;
+    }
+}
+
+legend {
+    font-size: 27px;
+    font-family: 'arial';
+}
+
+#Dados {
+    font-size: 22px;
+    font-size: 'arial';
+
+}
+
+fieldset {
+    background-color: rgba(86, 86, 86, 0.54);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#Endereço {
+    font-size: 21px;
+    font-size: 'arial';
+}
+
+#Trabalho {
+    font-size: 22px;
+    font-family: 'arial';
+
+}
+
+label {
+    font-size: 19px;
+    font-family: 'arial';
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: gray;
+}
+
+.LegendaProduto {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+   
+    font-size: 14px;
+    font-family: 'arial';
+  
+    text-align: left;
+    bottom: auto;
+    position: relative;
+}
+
+button {
+    width: 105px;
+    height: auto;
+    font-size: 18px;
+    font-family: 'arial';
+}
+
+b {
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+.ImgProdutos {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    position:relative;
+    flex-direction: column;
+    
+
+}

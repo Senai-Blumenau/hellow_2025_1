@@ -1,0 +1,66 @@
+ body {
+      background-color: #f0f8ff;
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+
+    #palavra {
+      font-size: 2rem;
+      letter-spacing: 10px;
+      margin: 20px 0;
+    }
+
+    .teclado {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .teclado button {
+      width: 40px;
+      height: 40px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #0d6efd;
+      color: white;
+      cursor: pointer;
+    }
+
+    .teclado button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    #boneco {
+      margin-top: 20px;
+      font-size: 1.5rem;
+      white-space: pre;
+      font-family: monospace;
+    }
+
+    #mensagem {
+      font-size: 1.25rem;
+      margin-top: 20px;
+      color: #dc3545;
+    }
+
+    .btn-reiniciar {
+      margin-top: 20px;
+      background-color: #198754;
+      color: white;
+      border: none;
+    }
+
+    .btn-reiniciar:hover {
+      background-color: #157347;
+    }
